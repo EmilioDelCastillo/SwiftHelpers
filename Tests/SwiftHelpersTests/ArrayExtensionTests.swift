@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-import Core
+import SwiftHelpers
 
 class ArrayExtensionTests: XCTestCase {
 

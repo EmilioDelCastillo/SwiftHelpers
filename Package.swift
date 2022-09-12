@@ -7,24 +7,14 @@ let package = Package(
     name: "SwiftHelpers",
     defaultLocalization: "en",
     products: [
-        .library(name: "SwiftHelpers", targets: ["Core",
-                                                "Core-Data",
-                                                "Date-Time",
-                                                "Misc",
-                                                "UI"])
+        .library(name: "SwiftHelpers", targets: ["SwiftHelpers"])
     ],
     targets: [
-        .target(name: "Core"),
-        .target(name: "Core-Data"),
-        .target(name: "Date-Time", dependencies: ["Core"]),
-        .target(name: "Misc"),
-        .target(name: "UI"),
+        .target(name: "SwiftHelpers",
+                path: "Sources",
+                sources: ["Core", "Core-Data", "Date-Time", "Misc", "UI"]),
         .testTarget(
             name: "SwiftHelpersTests",
-            dependencies: ["Core",
-                           "Core-Data",
-                           "Date-Time",
-                           "Misc",
-                           "UI"]),
+            dependencies: ["SwiftHelpers"]),
     ]
 )

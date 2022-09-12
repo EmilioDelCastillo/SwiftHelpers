@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Core
 
 // MARK: - Global vars
 

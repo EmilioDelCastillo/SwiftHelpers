@@ -8,7 +8,6 @@
 
 import XCTest
 
-
 class NSURLRequestCURLTests: XCTestCase {
     
     override func setUp() {

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import UI
+import SwiftHelpers
 
 private let kTagTestCommonInit = 55
 

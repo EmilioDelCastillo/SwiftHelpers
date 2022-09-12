@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import Core
+import SwiftHelpers
 
 private let kTestOperationSayHello = "Hello!"
 

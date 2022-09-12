@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-import Date_Time
+import SwiftHelpers
 
 class NSDateExtensionTests: XCTestCase {
     

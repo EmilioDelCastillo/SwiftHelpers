@@ -8,8 +8,6 @@
 
 import Foundation
 import XCTest
-import Core
-import UI
 
 class StringExtensionTests: XCTestCase {
     
